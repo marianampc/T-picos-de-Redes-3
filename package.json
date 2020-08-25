@@ -1,0 +1,10 @@
+{
+  "name": "topicos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mariana Martins Pessoa Costa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
