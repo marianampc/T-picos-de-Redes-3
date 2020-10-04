@@ -9,5 +9,5 @@ https://insomnia.rest/download/
 4) Visual Studio Code
 https://code.visualstudio.com/
 
-Professores:    Flávio Elias Gomes de Deus
+Professores:    Flávio Elias Gomes de Deus, 
                 Paulo Henrique Ferreir Campos Mendes
