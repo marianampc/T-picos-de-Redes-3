@@ -1,0 +1,21 @@
+Dia : 24/08/2020
+
+O que é API(Application Programming Interface)? 
+-> Um conjunto de rotinas e padrões estabelecidos e documentados por uma aplicação A, para que outras aplicações consigam utilizar as funcionalidades destas aplicaçaoes consigam utilizar as funcionalidades desta aplicação A, sem preciar conhecer detalhes da Implementação de software.
+-> Serve para oferecer serviços para que os terceiros não precisam saber como funciona passo à passo.
+-> Exemplo Uber eats, correio. 
+-> Para usar uma api, fazemos uma chamada e recemos como resposta o valor já pronto com a informação de queremos.
+-> Iremos construir API Rest, pensando em aquitetora iremos utilizar o modelo Cliente e Servidor. Para isso usaremos os metodos http, aqui são os quatro modos mais famosos GET,POST, PUT e DELETE.
+-> Vantagens de constrir uma API, multiplos cliente com um back-end. Não precisa existir um padrão entre os clientes, pois todos entendem JSON.
+
+Começar a praticar, e algumas definições.
+-> Bibliotéca: Conjuntos de códigos que realizam funções bem específicas.
+-> Framework: São um conjunto de códigos mais gerais.
+-> Usaremos o framework express para lidar com nossas rotas fazer nossos controles...
+-> Uma boa prática é sempre dar uma resposta ao nosso cliente, não importanto se deu certo ou não tem que ter uma resposta para auxiliar o cliente. 
+
+Na prática
+-> Iniciamos o projeto com o yarn, assim criando o documento package.json, que reuni todas as informações do projeto e suas depêndencias.
+-> A pasta node_modules sempre aparece depois que instalamos uma depêndencia (Nossa primeira depêndencia é o express). Dentro dele está todas as depêndencias que o express requer.
+-> Em seguida criaremos uma rota no doc server.js para testar.
+-> Para rodar o código usamos o comando "node server.js"  e depois abrir em algum browser essa porta.
