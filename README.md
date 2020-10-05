@@ -10,4 +10,5 @@ https://insomnia.rest/download/
 https://code.visualstudio.com/
 
 Professores:    Flávio Elias Gomes de Deus, 
-                Paulo Henrique Ferreir Campos Mendes
+                Paulo Henrique Ferreir Campos Mendes,
+                Ayrton Rodrigues Ayres de Lacerda
