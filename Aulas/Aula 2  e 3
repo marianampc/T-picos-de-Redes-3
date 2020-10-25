@@ -1,0 +1,41 @@
+Dia: 31/08/2020
+
+Iremos ver alguns conceitos de Arquitetura de Software
+->Serve para definir nossos componentes: 
+    ->Quais propriedades eles tem
+    ->suas responsabilidades 
+    ->Como se comunica com os sistemas internamente e externamente.
+-> Exemplo do nosso software de Cadastro de Usuário:
+    ->Componentes: Rotas 
+    ->Com a propriedade sendo as  Regras de Negócio e 
+    ->Tem como responsabilidade receber a requicisão, tratar essa requicisão e um serviço para conferir os dados de entrada como a parte de comunicação interna. Como parte de Comunicação externa tem os dados que pegas e colocamos no banco de dados.
+
+-> Temos como objetivo fazer uma refatoração da aula anterior, dividindo suas responsabilidades. 
+-> Queremos focar em criar um MVC quando estivermos criando um API, de modo à poder ser usado em vários problemas que tenham semelhanças.
+    ->E a partir desse modelo que começou a ser criado os modelos de códigos e páginas.
+
+
+->Hoje começaremos a mexer com o banco de dados.
+    -> Existe dois principais grupos de banco de dados. Os relacionais (SQL) e os Não-relacionais(NoSQL - Not only SQL)
+    ->O SQL organiza os dados em colunas enquanto os NoSQL organiza de maneiras diferentes.
+    ->Exemplos:
+        ->SQL: MySQL, ORACLE, PostgreSQL,...
+        ->NoSQL: MongoDB, Redis, DynamoDB
+->Iremos usar os MongoDB no docker.
+
+->Alguns Comandos simples do docker:
+    ->Listar containers ativos: docker ps 
+    ->Listar todos os containers:
+    docker ps -a 
+    ->Iniciar um container:
+    docker start nome_do_container (ou id_do_container)
+    ->Desligar um container:
+    docker stop nome_do_container(ou id_do_container)
+
+
+
+
+
+     
+
+    
